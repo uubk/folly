@@ -1,4 +1,4 @@
-Source: folly
+Source: folly-dev
 Section: utils
 Priority: optional
 Maintainer: Maximilian Falkenstein <falkensm@sos.ethz.ch>
@@ -8,7 +8,7 @@ Homepage: https://github.com/facebook/folly
 Vcs-Git: https://github.com/uubk/folly.git
 Vcs-Browser: https://github.com/uubk/folly
 
-Package: folly
+Package: folly-dev
 Architecture: any
 Depends: ${misc:Depends}
 Description: Folly is a library of C++11 components

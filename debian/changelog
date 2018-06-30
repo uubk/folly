@@ -1,4 +1,4 @@
-folly (0.57) unstable; urgency=medium
+folly-dev (0.57) unstable; urgency=medium
 
   * Initial Release, corresponding to upstrem release 'v2018.06.25.00'
     This release is simply named after the current soversion...
