@@ -1,0 +1,18 @@
+Source: folly
+Section: utils
+Priority: optional
+Maintainer: Maximilian Falkenstein <falkensm@sos.ethz.ch>
+Build-Depends: debhelper (>=9), libboost-all-dev, libevent-dev, libdouble-conversion-dev, libgoogle-glog-dev, libgflags-dev, liblz4-dev, liblzma-dev, libsnappy-dev, zlib1g-dev, libjemalloc-dev, libssl-dev, libiberty-dev, libdwarf-dev, cmake
+Standards-Version: 3.9.8
+Homepage: https://github.com/facebook/folly
+Vcs-Git: https://github.com/uubk/folly.git
+Vcs-Browser: https://github.com/uubk/folly
+
+Package: folly
+Architecture: any
+Depends: ${misc:Depends}
+Description: Folly is a library of C++11 components
+  Folly (acronymed loosely after Facebook Open Source Library) is a library of
+  C++11 components designed with practicality and efficiency in mind. Folly
+  contains a variety of core library components used extensively at Facebook.
+  Note: This package contains _static libs_ only.

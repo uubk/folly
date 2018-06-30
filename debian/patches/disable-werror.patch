@@ -1,0 +1,12 @@
+Disable -Werror since GCC otherwise aborts the build due to uninitialized
+variable warnings in the mutex implementation.
+--- a/CMake/FollyCompilerUnix.cmake
++++ b/CMake/FollyCompilerUnix.cmake
+@@ -16,7 +16,6 @@
+       -std=gnu++14
+       -finput-charset=UTF-8
+       -fsigned-char
+-      -Werror
+       -Wall
+       -Wno-deprecated
+       -Wdeprecated-declarations
